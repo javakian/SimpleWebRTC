@@ -13,16 +13,20 @@
     "socket.io-client": "0.9.16",
     "attachmediastream": "1.0.1",
     "webrtc": "1.13.x",
-    "mockconsole": "0.0.1"
+    "mockconsole": "0.0.1",
+    "snyk": "^1.503.0"
   },
   "devDependencies": {
-    "express": "3.x.x",
-    "browserify": "2.22.0",
-    "precommit-hook": "0.3.x",
+    "express": "4.16.0",
+    "browserify": "12.0.0",
+    "precommit-hook": "0.4.0",
     "request": "",
-    "uglify-js": "2.3.6"
+    "uglify-js": "2.6.0"
   },
   "scripts": {
-    "updateLatest": "./scripts/updateLatest.sh"
-  }
+    "updateLatest": "./scripts/updateLatest.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
