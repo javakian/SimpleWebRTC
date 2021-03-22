@@ -11,7 +11,7 @@
     "webrtcsupport": "^1.0.0",
     "wildemitter": "1.x",
     "socket.io-client": "0.9.16",
-    "attachmediastream": "1.0.1",
+    "attachmediastream": "1.4.2",
     "webrtc": "1.13.x",
     "mockconsole": "0.0.1"
   },
