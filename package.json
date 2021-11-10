@@ -10,17 +10,17 @@
   "dependencies": {
     "webrtcsupport": "^1.0.0",
     "wildemitter": "1.x",
-    "socket.io-client": "0.9.16",
+    "socket.io-client": "1.0.1",
     "attachmediastream": "1.0.1",
     "webrtc": "1.13.x",
     "mockconsole": "0.0.1"
   },
   "devDependencies": {
     "express": "3.x.x",
-    "browserify": "2.22.0",
+    "browserify": "9.0.0",
     "precommit-hook": "0.3.x",
     "request": "",
-    "uglify-js": "2.3.6"
+    "uglify-js": "3.14.3"
   },
   "scripts": {
     "updateLatest": "./scripts/updateLatest.sh"
