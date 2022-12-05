@@ -16,7 +16,7 @@
     "mockconsole": "0.0.1"
   },
   "devDependencies": {
-    "express": "3.x.x",
+    "express": "4.0.0",
     "browserify": "2.22.0",
     "precommit-hook": "0.3.x",
     "request": "",
